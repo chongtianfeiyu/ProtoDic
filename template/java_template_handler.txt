@@ -1,0 +1,17 @@
+package handler;
+
+import com.google.protobuf.ByteString;
+import com.google.protobuf.GeneratedMessage;
+
+import io.netty.channel.ChannelHandlerContext;
+import managers.Session;
+import proto.Proto.{{.Name}};
+import proto.ProtoDic;
+public final class {{.Name}}Handler implements IRun {
+	@Override
+	public GeneratedMessage run(ChannelHandlerContext ctx, ByteString b , Session s){
+		{{.Name}} o = ProtoDic.to{{.Name}}(b);
+		//System.out.println(o);
+		return null;
+	}
+}

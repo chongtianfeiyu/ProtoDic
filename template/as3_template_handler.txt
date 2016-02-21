@@ -1,0 +1,3 @@
+package handler{import proto.*;public class {{.Name}}_handler{public final function run(o:{{.Name}}):void{
+	//trace(o);//{{.Name}} ({{.Comm}})
+}}}

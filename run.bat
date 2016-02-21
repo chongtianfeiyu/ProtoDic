@@ -1,0 +1,2 @@
+E:\ProtoDic\ProtoDic.exe -templatePath E:\ProtoDic\template\ -protoPath E:\java\proto\proto.proto -asDicPath E:\as3\src\proto\ProtoDic.as -javaDicPath E:\java\src\proto\ProtoDic.java -asHandlerPath E:\as3\src\handler\ -javaHandlerPath E:\java\src\handler\
+pause

@@ -1,0 +1,24 @@
+package proto;
+
+message Msg {
+    required  int32               id                  = 1;  /*id*/
+    optional  bytes               data                = 2;  /*data*/
+}
+
+/*[111]性别*/
+enum emVocation {
+    man               = 1;  /*男*/
+    wm                = 2;  /*女*/
+}
+
+/*[222]学生*/
+message StudentInfo {
+    optional  string              openID              = 1;  /*唯一标识String*/
+    optional  string              name                = 2;  /*玩家名称*/
+}
+
+/*[998]登录*/
+message LoginS {
+    optional  int32               id                  = 1;  /*唯一标识int*/
+    optional  string              name                = 5;  /*名字*/
+}
